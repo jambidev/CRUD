@@ -1,0 +1,25 @@
+.btn-primary{
+	background-color: transparent;
+	color:#2980b9;
+	display: inline-block;
+}
+.btn-info{
+	background-color: transparent;
+	color:#0abde3;
+	display: inline-block;
+}
+.btn-warning{
+	background-color:transparent;
+	color:rgba(230, 126, 34,1.0);
+	display:inline-block;
+}
+.btn-danger{
+	background-color:transparent;
+	color:rgba(231, 76, 60,1.0);
+	display:inline-block;
+}
+btn-default{
+	background-color: transparent !important;
+	color:white;
+	display: inline-block;
+}

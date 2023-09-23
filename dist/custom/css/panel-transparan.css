@@ -1,0 +1,52 @@
+.panel{
+	background: transparent;	
+}
+.panel-transparan{
+	border-color:rgba(0,0,0,0.5);
+}
+.panel-transparan .panel-heading{
+	background-color: rgba(0,0,0,0.4);
+	color:#fff;
+}
+.panel-transparan .panel-body{
+	background-color: rgba(0,0,0,0.3);
+	color:#fff;
+}
+.panel-transparan .panel-body a{
+
+}
+.panel-transparan .panel-body label{
+	color:#48dbfb;
+}
+.penuh: -webkit-input-placeholder,
+.penuh: -moz-input-placeholder{
+	color:#ccc;
+}
+
+input[type=text]{
+    border-bottom: 1px solid #ccc;
+}
+input[type=text]:hover,input[type=text]:focus{
+    border-bottom: 1px solid #48dbfb;
+}
+input[type=password]{
+    border-bottom: 1px solid #ccc;
+}
+input[type=password]:hover,input[type=text]:focus{
+    border-bottom: 1px solid #48dbfb;
+}
+input[type=email]{
+    border-bottom: 1px solid #ccc;
+}
+input[type=email]:hover,input[type=email]:focus{
+    border-bottom: 1px solid #48dbfb;
+}
+input[type=date]{
+    border-bottom: 1px solid #ccc;
+}
+input[type=date]:hover,input[type=date]:focus{
+    border-bottom: 1px solid #48dbfb;
+}
+select{
+    height:30px;
+}

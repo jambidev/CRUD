@@ -1,0 +1,309 @@
+/*==================edit tag=================*/
+body{
+    background-color:;
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.sidenav {
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top:; 
+    transition: 0.5s;
+    margin-top:;
+    background-color:#f8f8f8;
+    border-right: solid 1px;
+    border-color:#e7e7e7;
+}
+.sidenav a{
+    font-size:;
+}
+.sidenav .list-group{
+    transition: 0.6s;
+}
+a.dropdown-toggle{
+    margin-right:;
+}
+.navbar-default{
+    margin-right:-15px;
+    margin-left:-15px;
+}
+.dropdown-menu{
+    right:auto;
+}
+.navbar-top-links li{
+    display: inline-table;
+    margin-top:10px;
+    background-color:transparent;
+}
+
+.navbar-top-links li:last-child {
+    margin-right:10px;
+    margin-top:;
+}
+.navbar-top-links .dropdown-user {
+    right:25px;
+    left:auto;
+
+}
+#container{
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-left:0;
+}
+@media(max-width: 780px){
+    .sidenav{
+        margin-top:;
+    }
+    a.dropdown-toggle{
+    margin-top:-45px;
+    }
+    .navbar-top-links li{
+    display:;
+    margin-top:-5px;
+    }
+    .navbar-top-links li:last-child {
+    margin-right:-15px;
+    margin-top:;
+    }
+}
+@media (min-width: 780px){
+    .sidenav{
+        margin-top:;
+    }
+    a.dropdown-toggle{
+    margin-top:-5px;
+    }
+    .navbar-top-links li{
+    margin-top:10px;
+    }
+
+}
+.transparan{
+     background-color:rgba(0,0,0,0.7) !important;
+}
+/*===========================================*/
+.penuh{
+    min-width: 100% !important;
+}
+.gede{
+    height:30px;
+    font-size: 16px;
+}
+.setengah{
+    min-width:48% !important;
+}
+.indent{
+    padding-left: 1.8em;
+}
+
+.box{
+    text-decoration: none;
+    display: block;
+}
+.box .kiri{
+    float:left;
+    background-color:#e67e22;
+    color: #fff;
+    width:50%; 
+}
+.box .kanan{
+    float:right;
+    background-color: transparent;
+    color: #e67e22;
+    padding-left: 1.8em;
+}
+/*edit class acak*/
+
+.footer{
+  margin-top:150px;
+  color:#fff;
+	position:absolute;
+	bottom:-30;
+	width:100%;
+  background-color:#333 !important;
+	background:url('../../../foto/worldmap.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.login-panel{
+	margin-top:20%;
+}
+.img-user{
+	margin-top:10%;
+	margin-right:10%;
+	margin-left:10%;
+	margin-bottom:0;
+	height:100px;
+	width:100px;
+}
+/*================================================*/
+/*edit font awesome*/
+.fa-white{
+    color: #fff;
+}
+/*================================================*/
+
+/*=======================panel===============================*/
+.panel-hijau{
+    border-color: #5cb85c;
+}
+.panel-merah{
+    border-color: #d9534f;
+}
+.panel-oren{
+    border-color: #f39c12;
+}
+.panel-kuning{
+    border-color:#f1c40f;
+}
+.panel-ungu{
+    border-color: #9b59b6;
+}
+.panel-biru{
+    border-color:#3498db;
+}
+.panel-birjo{
+    border-color:#2bcbba;
+}
+.panel-hiter{
+    border-color: #44bd32;
+}
+.panel-lavender{
+    border-color:#FDA7DF;
+}
+.panel-merta{
+    border-color:#B22222;
+}
+
+.panel-merta .panel-heading{
+    background-color: #B22222;
+    border-color: #B22222;
+}
+.panel-lavender .panel-heading{
+    background-color:  #FDA7DF;
+}
+.panel-hiter .panel-heading{
+    background-color: #44bd32;
+}
+.panel-birjo .panel-heading{
+    background-color:#2bcbba;
+}
+.panel-merah .panel-heading{
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+.panel-oren .panel-heading{
+    background-color: #f39c12;
+}
+.panel-kuning .panel-heading{
+    background-color:#f1c40f;
+}
+.panel-ungu .panel-heading{
+    background-color: #9b59b6;
+}
+.panel-hijau .panel-heading{
+    background-color: #5cb85c;
+}
+.panel-biru .panel-heading{
+    background-color: #3498db;
+}
+
+.panel-merta .panel-heading,
+.panel-lavender .panel-heading,
+.panel-hiter .panel-heading,
+.panel-birjo .panel-heading,
+.panel-biru .panel-heading,
+.panel-hijau .panel-heading,
+.panel-oren .panel-heading,
+.panel-merah .panel-heading,
+.panel-kuning .panel-heading,
+.panel-ungu .panel-heading{
+    color:#fff;
+}
+ .panel a,
+ .panel a:hover,
+ .panel a:focus,
+ .panel a:active,{
+}
+.panel a{
+}
+/*================================================================*/
+/*=======================bg color=================================*/
+.bg-merah{
+    background-color:#d9534f;
+    color:#fff;
+}
+
+label{
+    text-decoration:none;
+    color:rgba(0,0,0,0.5);
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 10px;
+  font-weight:12;
+  color: #fff;
+}
